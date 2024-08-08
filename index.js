@@ -13,6 +13,9 @@ app.get('/v2', function(req, res){
 	res.send("Hello V2 from app2");
 });
 
+app.get('/v3', function(req, res){
+	res.send("Hello V3 from app2");
+});
 
 app.listen(80,function(){
 	console.log('app is running in port 80');
