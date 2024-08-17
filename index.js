@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res){
-	res.send("Hello APP2 - update in version 1.0.1");
+	res.send("Hello APP2 - update in version 1.0.2");
 });
 
 app.get('/v1', function(req, res){
